@@ -1,0 +1,39 @@
+﻿@using CaixaComanda.Classes;
+
+@{
+    ViewData["Title"] = "Cadastre-se";
+}
+
+<div class="login">
+    @using (Html.BeginForm("Cadastrar", "Login", FormMethod.Post, new { @class = "login-form", id = "cadastrar" }))
+    {
+        <div class="login-form__grupo">
+            <label for="txtEmail">
+                E-mail:
+            </label>
+            <input placeholder="Digite aqui seu e-mail..." type="email" name="txtEmail" required />
+        </div>
+
+        <div class="login-form__grupo">
+            <label for="txtSenha">
+                Senha:
+            </label>
+            <input placeholder="Digite aqui sua senha..." type="password" name="txtSenha" required />
+        </div>
+
+        <div class="login-form__grupo">
+            <label for="txtConfirmarSenha">
+                Confirmar a Senha:
+            </label>
+            <input placeholder="Digite sua senha novamente..." type="password" name="txtConfirmarSenha" required />
+        </div>
+
+        <div class="login-form__grupo">
+            <button class="login-form__submit" type="submit" name="btnSubmit">
+                Cadastrar
+            </button>
+
+            @Html.ActionLink("Já tem um cadastro?", "Login", "Login", null, new { @class = "login-form__link" })
+        </div>
+    }
+</div>

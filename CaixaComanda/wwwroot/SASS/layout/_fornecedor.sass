@@ -1,0 +1,80 @@
+.fornecedor
+  &-listagem
+    display: grid
+
+    &__item
+      display: grid
+      grid-template-columns: 55px 120px 70px 100px
+
+      > div
+        border: 1px solid #e7e7e7
+        margin: -.5px
+        padding: 5px 0
+
+      %alinhar-centro
+        display: flex
+        align-items: center
+        justify-content: center
+
+      &-img
+        @extend %alinhar-centro
+
+        img
+          width: 45px
+          height: 45px
+          border-radius: 8px
+          object-fit: cover
+
+      &-nome
+        font-weight: bold
+        line-height: 1.2
+        font-size: .92rem
+        padding-inline: 5px !important
+
+      &-preco
+        @extend %alinhar-centro
+        color: $brand-color
+        font-weight: bold
+        font-size: .86rem
+
+      &-botoes
+        display: flex
+
+        a
+          padding: 5px 10px
+          margin: auto
+          color: #fff
+          border-radius: 5px
+          background: #F3D32B
+          box-shadow: 0px 0px 2px 0px #0000006b
+          border: none
+          text-decoration: none
+
+  &-form
+    @extend .login-form
+
+    form
+      display: grid
+      gap: 10px
+      margin-block: 10px 15px
+    
+    &__grupo
+      @extend .login-form__grupo
+
+    &__file-upload
+      @extend .login-form__file-upload
+
+    &__submit
+      @extend .login-form__submit
+
+    &__delete
+      @extend .login-form__delete
+
+    &__link
+      @extend .login-form__link
+
+    .deletar
+      margin: auto
+
+      a
+        @extend .login-form__delete

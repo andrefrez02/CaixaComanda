@@ -1,0 +1,167 @@
+﻿@using CaixaComanda.Classes;
+@using System.Web
+@{
+    ViewData["Title"] = "Evento - Alterar";
+
+    Evento evento = new Evento();
+
+    if (Model != null)
+    {
+        evento = Model;
+    }
+}
+
+<div>
+    @using (Html.BeginForm("Alterar", "Eventos", FormMethod.Post, new { @class = "form-alterar list-group-item d-grid gap-2", id = "alterar" }))
+    {
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtTitulo">
+                Título:
+            </label>
+            <input type="text" name="txtTitulo" value="@evento.Titulo" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtDescricao">
+                Descrição:
+            </label>
+            <textarea type="text" name="txtDescricao"></textarea>
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtHtml">
+                Conteúdo (HTML permitido):
+            </label>
+            <textarea type="text" name="txtHtml" required></textarea>
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtCategoria">
+                Categoria (Exemplo: Comédia, Ação, etc...):
+            </label>
+            <input type="text" name="txtCategoria" value="@evento.Categoria" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtLocal">
+                Local:
+            </label>
+            <input type="text" name="txtLocal" value="@evento.Local" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtDataHoraEvento">
+                Ínicio - Data e Hora do evento:
+            </label>
+            <input type="datetime-local" name="txtDataHoraEvento" value="@(evento.DataHoraEvento.ToString(@"yyyy-MM-ddTHH:mm:ss") != "0001-01-01T00:00:00" ? evento.DataHoraEvento.ToString(@"yyyy-MM-ddTHH:mm:ss") : string.Empty)" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtDataHoraEventoAte">
+                Final - Data e Hora do evento:
+            </label>
+            <input type="datetime-local" name="txtDataHoraEventoAte" value="@(evento.DataHoraEventoAte.ToString(@"yyyy-MM-ddTHH:mm:ss") != "0001-01-01T00:00:00" ? evento.DataHoraEventoAte.ToString(@"yyyy-MM-ddTHH:mm:ss") : string.Empty)" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtHorario">
+                Horário do Evento:
+            </label>
+            <input type="text" name="txtHorario" value="@evento.Horario" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtDuracao">
+                Duração do Evento (em Horas):
+            </label>
+            <input type="time" name="txtDuracao" value="@evento.Duracao.Replace("h", ":").Replace("m", ":00")" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtPreco">
+                Preço do ingresso:
+            </label>
+            <input type="text" name="txtPreco" value="@evento.Preco" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtEstoque">
+                Estoque:
+            </label>
+            <input type="number" name="txtEstoque" value="@evento.Estoque" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtFotoCapa">
+                Nome do arquivo da imagem e extensão no diretório de imagens: <br />
+                <span>(Diretório localizado no GitHub)</span>
+            </label>
+            <input type="text" name="txtFotoCapa" value="@evento.FotoCapa.Replace("https://raw.githubusercontent.com/andrefrez02/analise-e-projeto-de-sistemas-ii-grupo-08/main/imagens/", string.Empty)" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtTipo">
+                Tipo de Evento (Exemplo: Cinema, Teatro, etc...):
+            </label>
+            <input type="text" name="txtTipo" value="@evento.Tipo" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtAtivo">
+                Ativo:
+            </label>
+            <select name="txtAtivo" value="@evento.Ativo" required>
+                <option value="N">
+                    Não
+                </option>
+                <option value="S">
+                    Sim
+                </option>
+            </select>
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtDestaque">
+                Evento em destaque? <br />
+                <span>(Eventos em Destaque sempre aparecem na página principal como um banner)</span>
+            </label>
+            <select name="txtDestaque" value="@evento.Destaque" required>
+                <option value="N">
+                    Não
+                </option>
+                <option value="S">
+                    Sim
+                </option>
+            </select>
+        </div>
+
+        <input type="hidden" name="txtId" value="@evento.Id" />
+
+        <div class="w-auto m-auto mt-3 mb-2 d-flex gap-2">
+            <button class="btn btn-success w-auto m-auto" type="submit">
+                Alterar
+            </button>
+
+            @Html.ActionLink("Deletar Evento", "Deletar", "Eventos", null, new { @class = "btn btn-danger w-auto m-auto", id = "btnDeletar" })
+        </div>
+    }
+
+    <script>
+        function htmlDecode(input) {
+            var e = document.createElement('div');
+            e.innerHTML = input;
+            return e.childNodes[0].nodeValue;
+        }
+
+        document.querySelector("[name='txtDescricao']").value = htmlDecode("@HttpUtility.HtmlDecode(evento.Descricao)");
+        document.querySelector("[name='txtHtml']").value = htmlDecode("@HttpUtility.HtmlDecode(evento.Html)");
+        document.querySelector("[name='txtAtivo']").value = "@evento.Ativo";
+        document.querySelector("[name='txtDestaque']").value = "@evento.Destaque";
+
+        document.querySelector("#btnDeletar").addEventListener("click", function (){
+            let id = document.querySelector("[name='txtId']").value;
+            var query = `?txtId=${id}`;
+            this.setAttribute("href", this.href + query);
+        })
+    </script>
+</div>

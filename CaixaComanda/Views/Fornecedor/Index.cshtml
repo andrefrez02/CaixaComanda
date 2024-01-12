@@ -1,0 +1,50 @@
+﻿@using CaixaComanda.Classes;
+
+@{
+    ViewData["Title"] = "Administrar";
+
+    DataModel dados = new DataModel();
+
+    List<Produto> listagem = dados.ListarProduto();
+}
+
+<partial name="_SplashFornecedor" />
+
+<div class="fornecedor">
+    <nav class="fornecedor-topo">
+        @Html.ActionLink("Cadastrar", "Cadastrar", "Fornecedor", null, new { @class = "", id = "btnCadastrar" })
+    </nav>
+    @if (listagem != null)
+    {
+        <div class="fornecedor-listagem">
+            @foreach (Produto item in listagem)
+            {
+                <div class="fornecedor-listagem__item">
+                    <div class="fornecedor-listagem__item-img">
+                        <img src="~/Arquivos/Imagens/@item.Foto" alt="@item.Nome" />
+                    </div>
+
+                    <div class="fornecedor-listagem__item-nome">
+                        @item.Nome
+                    </div>
+
+                    <div class="fornecedor-listagem__item-preco">
+                        R$@item.Preco.Replace(".", ",")
+                    </div>
+
+                    <div class="fornecedor-listagem__item-botoes">
+                        <input type="hidden" value="@item.Id" />
+                        @Html.ActionLink("Alterar", "Alterar", "Fornecedor", null)
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+<script defer>
+    document.querySelectorAll(".fornecedor-listagem__item-botoes").forEach(item => {
+        let id = item.querySelector("input").value;
+        let query = `?Id=${id}`;
+        item.querySelector("a").setAttribute("href", item.querySelector("a").href + query);
+    })
+</script>

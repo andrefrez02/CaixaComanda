@@ -1,0 +1,114 @@
+﻿@using CaixaComanda.Classes;
+@using System.Web
+@{
+    ViewData["Title"] = "Alterar";
+
+    Produto produto = new Produto();
+
+    if (Model != null)
+    {
+        produto = Model;
+    }
+}
+
+<div class="fornecedor-form">
+    @using (Html.BeginForm("Alterar", "Fornecedor", FormMethod.Post, new { @class = "", id = "alterar", enctype = "multipart/form-data" }))
+    {
+        <div class="fornecedor-form__grupo">
+            <label for="txtNome">
+                Nome do produto:
+            </label>
+            <input type="text" placeholder="Digite o nome do produto..." name="txtNome" value="@produto.Nome" required />
+        </div>
+
+        <div class="fornecedor-form__grupo">
+            <label for="txtDescricao">
+                Descrição:
+            </label>
+            <textarea type="text" placeholder="Digite uma breve descrição do produto..." name="txtDescricao"></textarea>
+        </div>
+
+        <div class="fornecedor-form__grupo">
+            <label for="txtPreco">
+                Preço:
+            </label>
+            <input type="text" placeholder="R$ 00,00..." name="txtPreco" value="@produto.Preco" required />
+        </div>
+
+        <div class="fornecedor-form__grupo">
+            <label for="txtGrupo">
+                Vincular à lista:
+            </label>
+            <input type="text" placeholder="Digite o nome da lista que esse produto pertence..." name="txtGrupo" value="@produto.Grupo" required />
+        </div>
+
+        <div class="fornecedor-form__grupo">
+            <label for="txtFoto">
+                Foto:
+            </label>
+            <div class="fornecedor-form__file-upload">
+                <img src="~/Arquivos/Imagens/@produto.Foto" alt="@produto.Nome" />
+                <input type="hidden" name="hdnFoto" value="@produto.Foto" />
+                <input type="file" name="uplFoto" />
+            </div>
+        </div>
+
+        <div class="fornecedor-form__grupo">
+            <label for="txtPeso">
+                Peso <small>(Kg/mg)</small>:
+            </label>
+            <input type="text" placeholder="00,00g..." name="txtPeso" value="@produto.Peso" required />
+        </div>
+
+        <div class="fornecedor-form__grupo">
+            <label for="txtQuantidade">
+                Serve <small>(Ex: até 1 pessoa)</small>:
+            </label>
+            <input type="text" placeholder="Digite a quantidade do produto..." name="txtQuantidade" value="@produto.Quantidade" required />
+        </div>
+
+        <div class="fornecedor-form__grupo">
+            <label for="txtObservacao">
+                Observação:
+            </label>
+            <textarea type="text" placeholder="Digite uma observação breve do produto..." name="txtObservacao"></textarea>
+        </div>
+
+        <div class="fornecedor-form__grupo">
+            <button class="fornecedor-form__submit" type="submit">
+                Alterar
+            </button>
+            <div class="deletar">
+                <input type="hidden" value="@produto.Id" name="hdnId"/>
+                @Html.ActionLink("Deletar Produto", "Deletar", "Fornecedor", null, new { @class = "fornecedor-form__link" })
+            </div>
+        </div>
+    }
+</div>
+
+<script defer>
+    function htmlDecode(input) {
+        var e = document.createElement('div');
+        e.innerHTML = input;
+        return e.childNodes[0].nodeValue;
+    };
+
+    document.querySelector("[name='txtDescricao']").value = htmlDecode("@HttpUtility.HtmlDecode(produto.Descricao)");
+    document.querySelector("[name='txtObservacao']").value = htmlDecode("@HttpUtility.HtmlDecode(produto.Observacao)");
+
+    document.querySelectorAll(".deletar").forEach(item => {
+        let id = item.querySelector("input").value;
+        let query = `?Id=${id}`;
+        item.querySelector("a").setAttribute("href", item.querySelector("a").href + query);
+    })
+
+    var inpFoto = document.querySelector(".fornecedor-form__file-upload [name='uplFoto']");
+    var imgFoto = document.querySelector(".fornecedor-form__file-upload img");
+
+    inpFoto.onchange = evt => {
+        const [file] = inpFoto.files
+        if (file) {
+            imgFoto.src = URL.createObjectURL(file)
+        }
+    }
+</script>

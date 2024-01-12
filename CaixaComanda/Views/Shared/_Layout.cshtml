@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CaixaComanda</title>
+    <link rel="stylesheet" href="~/sass/main.css" asp-append-version="true" />
+    <link rel="icon" type="image/x-icon" href="~/Imagens/favicon.svg">
+    <script src="~/Javascript/main.js" defer></script>
+</head>
+<body class="main">
+    <partial name="_NavUsuario" />
+
+    <main role="main" class="main-conteudo">
+        @RenderBody()
+    </main>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

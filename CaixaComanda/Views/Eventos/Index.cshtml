@@ -1,0 +1,98 @@
+﻿@using CaixaComanda.Classes;
+
+@{
+    ViewData["Title"] = "Eventos - Index";
+
+    Usuario usuario = new Usuario();
+
+    DataModel dados = new DataModel();
+
+    if (TempData["LoginId"] != null)
+    {
+        if (TempData["LoginId"].ToString() != "error")
+        {
+            usuario = dados.PesquisarUsuario(TempData["LoginId"].ToString());
+        }
+    }
+
+    bool admin = usuario.Tipo == "A";
+
+    List<Produto> listagem = dados.ListarEventos();
+}
+
+<div>
+    @if (usuario.Id != null)
+    {
+        <div class="w-100 mt-3 mb-5 d-flex gap-5 justify-content-between">
+            <h2>Usuario logado: @usuario.NomeUsuario</h2>
+
+            @if (admin)
+            {
+                <a class="nav-link text-white btn btn-success" asp-area="" asp-controller="Eventos" asp-action="Cadastrar">Cadastrar Evento</a>
+            }
+        </div>
+        <hr />
+    }
+
+    <div class="mb-3 d-flex justify-content-between">
+        <h1>
+            Lista de Eventos:
+        </h1>
+        @Html.ActionLink("JSON Listagem", "JSON", "Eventos", null, new { target = "_blank", @class = "btn btn-warning text-white w-auto m-auto ", id = "btnJSON"})
+    </div>
+    <ul class="list-group text-center">
+        @if (listagem != null)
+        {
+            <li class="list-group-item d-grid gap-2">
+                @foreach (Evento item in listagem)
+                {
+                    <div class="listagem-filmes__item">
+                        <img src="@item.FotoCapa" />
+
+                        <p>
+                            @item.Tipo / @item.Categoria
+                        </p>
+
+                        <h1>
+                            @item.Titulo
+                        </h1>
+                        <h2>
+                            @Html.Raw(item.Descricao)
+                        </h2>
+                        <div>
+                            @Html.Raw(item.Html)
+                        </div>
+                    </div>
+                    <div class="w-100 m-auto mt-3 mb-2 d-flex gap-2 justify-content-center">
+                        <input type="hidden" value="@item.Id" name="txtId-@item.Id" />
+                        @if (admin)
+                        {
+                            @using (Html.BeginForm("Alterar", "Eventos", FormMethod.Get))
+                            {
+                                <input type="hidden" value="@item.Id" name="txtId" />
+                                <button class="btn btn-success w-auto m-auto mt-3 mb-2" type="submit" name="btnSubmit">
+                                    Alterar
+                                </button>
+                            }
+                        }
+
+                        @Html.ActionLink("Visualizar evento", "Detalhes", "Eventos", null, new { @class = "btn btn-success w-auto m-auto", id = "btnVisualizar" })
+
+                        <script>
+                            function eventoClique() {
+                                let btn = document.currentScript.parentElement.querySelector("a");
+
+                                btn.addEventListener("click", function () {
+                                    var query = `?txtId=@item.Id`;
+                                    this.setAttribute("href", this.href + query);
+                                })
+                            }
+
+                            eventoClique();
+                        </script>
+                    </div>
+                }
+            </li>
+        }
+    </ul>
+</div>

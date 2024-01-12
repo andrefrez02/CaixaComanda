@@ -1,0 +1,49 @@
+﻿@using CaixaComanda.Classes;
+
+@{
+    ViewData["Title"] = "Alterar Cadastro";
+
+    Usuario usuario = new Usuario();
+
+    if (TempData["LoginId"] != null)
+    {
+        if (TempData["LoginId"].ToString() != "error")
+        {
+            usuario = new DataModel().PesquisarUsuario(TempData["LoginId"].ToString());
+        }
+    }
+}
+
+<div class="login">
+    @using (Html.BeginForm("Alterar", "Login", FormMethod.Post, new { @class = "login-form", id = "alterar" }))
+    {
+        <div class="login-form__grupo">
+            <label for="txtEmail">
+                E-mail:
+            </label>
+            <input type="email" name="txtEmail" value="@usuario.Email" disabled draggable="false" />
+        </div>
+
+        <div class="login-form__grupo">
+            <label for="txtSenha">
+                Senha Atual:
+            </label>
+            <input type="password" name="txtSenha" value="" required />
+        </div>
+
+        <div class="login-form__grupo">
+            <label for="txtNovaSenha">
+                Senha Nova:
+            </label>
+            <input type="password" name="txtNovaSenha" value="" required />
+        </div>
+
+        <div class="login-form__grupo">
+            <button class="login-form__submit" type="submit" name="btnSubmit">
+                Alterar
+            </button>
+
+            @Html.ActionLink("Deletar conta", "Deletar", "Login", null, new { @class = "login-form__delete" })
+        </div>
+    }
+</div>

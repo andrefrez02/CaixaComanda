@@ -1,0 +1,55 @@
+﻿@using CaixaComanda.Classes;
+
+@model Evento
+
+@{
+    ViewData["Title"] = "Eventos - Detalhes";
+
+    DataModel dados = new DataModel();
+
+    Evento evento = new Evento();
+
+    if (Model != null)
+    {
+        evento = dados.PesquisarEvento(Model.Id);
+    }
+}
+
+<div>
+    @if (evento != null)
+    {
+        <div class="filme-detalhe">
+            <img src="@evento.FotoCapa" />
+
+            <p>
+                @evento.Tipo / @evento.Categoria
+            </p>
+
+            <p>
+                @evento.Local
+            </p>
+
+            <p>
+                @evento.DataHoraEvento - @evento.DataHoraEventoAte
+            </p>
+
+            <p>
+                @evento.Horario - @evento.Duracao
+            </p>
+
+            <p>
+                @evento.Preco
+            </p>
+
+            <h1>
+                @evento.Titulo
+            </h1>
+            <h2>
+                @Html.Raw(evento.Descricao)
+            </h2>
+            <div>
+                @Html.Raw(evento.Html)
+            </div>
+        </div>
+    }
+</div>

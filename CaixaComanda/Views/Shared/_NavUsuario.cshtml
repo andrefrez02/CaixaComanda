@@ -1,0 +1,106 @@
+﻿@using CaixaComanda.Classes;
+@{
+    Usuario usuario = new Usuario();
+
+    DataModel dados = new DataModel();
+
+    string titulo = ViewData["Title"].ToString();
+
+
+
+    bool inicio = titulo == "Identifique-se" || titulo == "Login" || titulo == "Cadastre-se" ? true : false;
+
+    bool voltar = titulo == "Administrar" ? false : true;
+
+    bool voltarListagemFornecedor = titulo == "Alterar Cadastro" ? true : false;
+}
+<header class="main-header">
+    @if (inicio)
+    {
+        <img class="main-header__icone" src="~/Imagens/favicon.svg" />
+    }
+    else
+    {
+        if (voltar)
+        {
+            <button class="main-header__voltar" title="Voltar" type="button">
+                @Html.Raw(File.ReadAllText("wwwroot/Icones/voltar.svg"))
+            </button>
+            if (voltarListagemFornecedor)
+            {
+                <script defer>
+                    document.querySelector(".main-header__voltar").setAttribute("onclick", `window.location = '${window.location.origin}/fornecedor'`);
+
+                    document.currentScript.remove();
+                </script>
+            }
+            else
+            {
+                <script defer>
+                    var urlAnterior = "";
+                    for (var i = 0; i < window.location.pathname.split("/").length - 1; i++) {
+                        urlAnterior = urlAnterior + window.location.pathname.split("/")[i] + "/";
+                    };
+
+                    document.querySelector(".main-header__voltar").setAttribute("onclick", `window.location = '${window.location.origin}${urlAnterior}'`);
+
+                    document.currentScript.remove();
+                </script>
+            }
+        }
+        else
+        {
+            <img class="main-header__icone" src="~/Imagens/favicon.svg" />
+        }
+    }
+
+    <p class="main-header__titulo">
+        @ViewData["Title"]
+    </p>
+
+    <div class="main-header__login">
+        @if (inicio)
+        {
+            <text>
+                &nbsp;
+            </text>
+        }
+        else
+        {
+            <div class="logado">
+                <a asp-controller="Login" asp-action="Deslogar">Sair</a>
+
+                <a asp-controller="Login" asp-action="Alterar">Alterar</a>
+            </div>
+            <div class="deslogado">
+                <a asp-controller="Login" asp-action="Login">Login</a>
+
+                <a asp-controller="Login" asp-action="Cadastrar">Cadastrar</a>
+            </div>
+        }
+    </div>
+</header>
+
+<script defer>
+    function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+
+    var logado = getCookie("LoginId") != null ? true : false;
+
+    if (!logado) {
+        document.querySelector(".logado").remove();
+    }
+    else {
+        document.querySelector(".deslogado").remove();
+    }
+
+    document.currentScript.remove();
+</script>

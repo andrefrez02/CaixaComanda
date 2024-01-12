@@ -1,0 +1,11 @@
+=media-query($device)
+    @media screen and (max-width: $device)
+        @content
+
+=media-greater($device)
+    @media screen and (min-width: $device + 1)
+        @content
+
+=media-minor($device)
+    @media screen and (max-width: $device + 1)
+        @content

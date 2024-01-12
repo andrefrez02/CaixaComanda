@@ -1,0 +1,121 @@
+﻿@using CaixaComanda.Classes;
+
+@{
+    ViewData["Title"] = "Eventos - Cadastrar";
+}
+
+<div class="list-group text-center">
+    @using (Html.BeginForm("Cadastrar", "Eventos", FormMethod.Post, new { @class = "form-cadastrar list-group-item d-grid gap-2", id = "cadastrar" }))
+    {
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtTitulo">
+                Título:
+            </label>
+            <input type="text" name="txtTitulo" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtDescricao">
+                Descrição:
+            </label>
+            <textarea type="text" name="txtDescricao"></textarea>
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtHtml">
+                Conteúdo (HTML permitido):
+            </label>
+            <textarea type="text" name="txtHtml" required></textarea>
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtCategoria">
+                Categoria (Exemplo: Comédia, Ação, etc...):
+            </label>
+            <input type="text" name="txtCategoria" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtLocal">
+                Local:
+            </label>
+            <input type="text" name="txtLocal" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtDataHoraEvento">
+                Ínicio - Data e Hora do evento:
+            </label>
+            <input type="datetime-local" name="txtDataHoraEvento" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtDataHoraEventoAte">
+                Final - Data e Hora do evento:
+            </label>
+            <input type="datetime-local" name="txtDataHoraEventoAte" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtHorario">
+                Horário do Evento:
+            </label>
+            <input type="text" name="txtHorario" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtDuracao">
+                Duração do Evento (em Horas):
+            </label>
+            <input type="time" name="txtDuracao" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtPreco">
+                Preço do ingresso:
+            </label>
+            <input type="text" name="txtPreco" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtEstoque">
+                Estoque:
+            </label>
+            <input type="number" name="txtEstoque" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtFotoCapa">
+                Nome do arquivo da imagem e extensão no diretório de imagens: <br />
+                <span>(Diretório localizado no GitHub)</span>
+            </label>
+            <input type="text" name="txtFotoCapa" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtTipo">
+                Tipo de Evento (Exemplo: Cinema, Teatro, etc...): 
+            </label>
+            <input type="text" name="txtTipo" required />
+        </div>
+
+        <div class="w-auto m-auto mt-3 mb-2 d-grid gap-2">
+            <label for="txtDestaque">
+                Evento em destaque? <br />
+                <span>(Eventos em Destaque sempre aparecem na página principal como um banner)</span>
+            </label>
+            <select name="txtDestaque" required>
+                <option value="N">
+                    Não
+                </option>
+                <option value="S">
+                    Sim
+                </option>
+            </select>
+        </div>
+
+        <button class="btn btn-success w-auto m-auto mt-3 mb-2" type="submit" name="btnSubmit">
+            Cadastrar
+        </button>
+    }
+</div>

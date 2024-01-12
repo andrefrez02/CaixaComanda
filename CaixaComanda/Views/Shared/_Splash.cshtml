@@ -1,0 +1,55 @@
+﻿<div class="splash">
+    <div class="splash-inicio">
+        <img class="icone" src="~/Imagens/favicon.svg" />
+        <img class="texto" src="~/Imagens/title.svg" />
+    </div>
+    <script>
+        function setCookie(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        }
+
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        if (getCookie("primeiroAcesso") != "S") {
+            setCookie("primeiroAcesso", "S", "1");
+        }
+        else {
+            document.querySelector(".splash").remove();
+        };
+    </script>
+    <script defer>
+        setTimeout(function () {
+            let splash = document.querySelector(".splash");
+            splash.firstElementChild.querySelectorAll("img").forEach(item => {
+                item.style.scale = "0";
+            })
+
+            let estilo = document.createElement("style");
+            estilo.innerHTML = ".splash{ animation: none !important; background-color: #ff9c65 !important; }";
+            splash.appendChild(estilo);
+
+            setTimeout(function () {
+                estilo.innerHTML = estilo.innerHTML + "\n.splash{ background-color: transparent !important; }";
+            }, 500)
+
+            setTimeout(function () {
+                splash.remove();
+            }, 1000)
+        }, 7500);
+    </script>
+</div>
