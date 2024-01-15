@@ -1,5 +1,8 @@
 /.vs
-/CaixaComanda/bin
+/.github
+/chave-privada-Putty.ppk
+/chave-publica-Putty
 /CaixaComanda/obj
+/CaixaComanda/bin
 /CaixaComanda/CaixaComanda.csproj.user
 /CaixaComanda/CaixaComanda.user
