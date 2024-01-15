@@ -5,81 +5,80 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CaixaComanda
 build_property.RootNamespace = CaixaComanda
-build_property.ProjectDir = D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\
+build_property.ProjectDir = E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda
+build_property.MSBuildProjectDirectory = E:\Programação\Visual Studio\CaixaComanda\CaixaComanda
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/Cliente/Index.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/Cliente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/Fornecedor/Alterar.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/Fornecedor/Alterar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxBbHRlcmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/Fornecedor/Cadastrar.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/Fornecedor/Cadastrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxDYWRhc3RyYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/Fornecedor/Index.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/Fornecedor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/Home/Index.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/Login/Alterar.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/Login/Alterar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQWx0ZXJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/Login/Cadastrar.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/Login/Cadastrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQ2FkYXN0cmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/Login/Login.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/Shared/Error.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/Shared/JSON.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/Shared/JSON.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEpTT04uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/Shared/_Layout.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/Shared/_NavUsuario.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/Shared/_NavUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZVc3VhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/Shared/_Splash.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/Shared/_Splash.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TcGxhc2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/Shared/_SplashFornecedor.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/Shared/_SplashFornecedor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TcGxhc2hGb3JuZWNlZG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/_ViewImports.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAS TI/Aplicativo - CaixaComanda/CaixaComanda/CaixaComanda/Views/_ViewStart.cshtml]
+[E:/Programação/Visual Studio/CaixaComanda/CaixaComanda/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
