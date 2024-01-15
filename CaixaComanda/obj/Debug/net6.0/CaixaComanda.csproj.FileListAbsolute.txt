@@ -1,0 +1,113 @@
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\appsettings.Development.json
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\appsettings.json
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\CaixaComanda.staticwebassets.runtime.json
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\CaixaComanda.exe
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\CaixaComanda.deps.json
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\CaixaComanda.runtimeconfig.json
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\CaixaComanda.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\CaixaComanda.pdb
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\Google.Protobuf.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\MySql.Data.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.IO.Pipelines.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Text.Json.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\ZstdSharp.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.csproj.AssemblyReference.cache
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.AssemblyInfoInputs.cache
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.AssemblyInfo.cs
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.csproj.CoreCompileInputs.cache
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.RazorAssemblyInfo.cache
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.RazorAssemblyInfo.cs
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\staticwebassets.build.json
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\staticwebassets.development.json
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\scopedcss\bundle\CaixaComanda.styles.css
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.csproj.CopyComplete
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\refint\CaixaComanda.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.pdb
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.genruntimeconfig.cache
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\ref\CaixaComanda.dll
+E:\Programação\Visual Studio\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.MvcApplicationPartsAssemblyInfo.cache
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\appsettings.Development.json
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\appsettings.json
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\CaixaComanda.staticwebassets.runtime.json
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\CaixaComanda.exe
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\CaixaComanda.deps.json
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\CaixaComanda.runtimeconfig.json
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\CaixaComanda.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\CaixaComanda.pdb
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\Google.Protobuf.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\MySql.Data.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.IO.Pipelines.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Text.Json.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\ZstdSharp.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.csproj.AssemblyReference.cache
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.AssemblyInfoInputs.cache
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.AssemblyInfo.cs
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.csproj.CoreCompileInputs.cache
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.MvcApplicationPartsAssemblyInfo.cache
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.RazorAssemblyInfo.cache
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.RazorAssemblyInfo.cs
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\staticwebassets\msbuild.CaixaComanda.Microsoft.AspNetCore.StaticWebAssets.props
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\staticwebassets\msbuild.build.CaixaComanda.props
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CaixaComanda.props
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CaixaComanda.props
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\staticwebassets.pack.json
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\staticwebassets.build.json
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\staticwebassets.development.json
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\scopedcss\bundle\CaixaComanda.styles.css
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.csproj.CopyComplete
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\refint\CaixaComanda.dll
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.pdb
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\CaixaComanda.genruntimeconfig.cache
+D:\PROGRAMAS TI\Aplicativo - CaixaComanda\CaixaComanda\CaixaComanda\obj\Debug\net6.0\ref\CaixaComanda.dll
