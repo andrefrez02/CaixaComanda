@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\CaixaComanda.csproj": {}
+    "C:\\Trampo\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\CaixaComanda.csproj": {}
   },
   "projects": {
-    "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\CaixaComanda.csproj": {
+    "C:\\Trampo\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\CaixaComanda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\CaixaComanda.csproj",
+        "projectUniqueName": "C:\\Trampo\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\CaixaComanda.csproj",
         "projectName": "CaixaComanda",
-        "projectPath": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\CaixaComanda.csproj",
-        "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
-        "outputPath": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\obj\\",
+        "projectPath": "C:\\Trampo\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\CaixaComanda.csproj",
+        "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
+        "outputPath": "C:\\Trampo\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
