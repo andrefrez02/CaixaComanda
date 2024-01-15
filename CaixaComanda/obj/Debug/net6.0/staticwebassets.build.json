@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DGxkbb5iGJiAurzy0WMkWsk+1jLk0biMIY1EPjZKllY=",
+  "Hash": "x6WlJbJ0OH/k8oKKjRRTO4cXLa+0Rmy6gCp4eHWC2UU=",
   "Source": "CaixaComanda",
   "BasePath": "_content/CaixaComanda",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CaixaComanda\\wwwroot",
       "Source": "CaixaComanda",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\Arquivos\\Imagens\\batata frita.jpg",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\Arquivos\\Imagens\\batata frita.jpg",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "Arquivos/Imagens/batata frita.jpg",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Arquivos\\Imagens\\batata frita.jpg"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\Arquivos\\Imagens\\faz-o-L.png",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\Arquivos\\Imagens\\faz-o-L.png",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "Arquivos/Imagens/faz-o-L.png",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\Arquivos\\Imagens\\faz-o-L.png"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\Arquivos\\Imagens\\file-de-frango-a-parmegiana.png",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\Arquivos\\Imagens\\file-de-frango-a-parmegiana.png",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "Arquivos/Imagens/file-de-frango-a-parmegiana.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Arquivos\\Imagens\\file-de-frango-a-parmegiana.png"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\Arquivos\\Imagens\\gamepad.ico",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\Arquivos\\Imagens\\gamepad.ico",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "Arquivos/Imagens/gamepad.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Arquivos\\Imagens\\gamepad.ico"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\Arquivos\\Imagens\\peixe-frito.webp",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\Arquivos\\Imagens\\peixe-frito.webp",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "Arquivos/Imagens/peixe-frito.webp",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Arquivos\\Imagens\\peixe-frito.webp"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\Arquivos\\Imagens\\sopa-de-cebola.jpeg",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\Arquivos\\Imagens\\sopa-de-cebola.jpeg",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "Arquivos/Imagens/sopa-de-cebola.jpeg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Arquivos\\Imagens\\sopa-de-cebola.jpeg"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\Icones\\cliente.svg",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\Icones\\cliente.svg",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "Icones/cliente.svg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Icones\\cliente.svg"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\Icones\\fornecedor.svg",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\Icones\\fornecedor.svg",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "Icones/fornecedor.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Icones\\fornecedor.svg"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\Icones\\imagemnaodisponivel.svg",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\Icones\\imagemnaodisponivel.svg",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "Icones/imagemnaodisponivel.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Icones\\imagemnaodisponivel.svg"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\Icones\\voltar.svg",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\Icones\\voltar.svg",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "Icones/voltar.svg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Icones\\voltar.svg"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\Imagens\\alternativo.svg",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\Imagens\\alternativo.svg",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "Imagens/alternativo.svg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\alternativo.svg"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\Imagens\\favicon.svg",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\Imagens\\favicon.svg",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "Imagens/favicon.svg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\favicon.svg"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\Imagens\\title.svg",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\Imagens\\title.svg",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "Imagens/title.svg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\title.svg"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\Javascript\\main.js",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\Javascript\\main.js",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "Javascript/main.js",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Javascript\\main.js"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\_vars.sass",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\_vars.sass",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "SASS/_vars.sass",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\SASS\\_vars.sass"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\base\\_base.sass",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\base\\_base.sass",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "SASS/base/_base.sass",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\SASS\\base\\_base.sass"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\base\\_mixins.sass",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\base\\_mixins.sass",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "SASS/base/_mixins.sass",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\SASS\\base\\_mixins.sass"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\layout\\_fornecedor.sass",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\layout\\_fornecedor.sass",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "SASS/layout/_fornecedor.sass",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\SASS\\layout\\_fornecedor.sass"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\layout\\_home.sass",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\layout\\_home.sass",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "SASS/layout/_home.sass",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\SASS\\layout\\_home.sass"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\layout\\_layout.sass",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\layout\\_layout.sass",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "SASS/layout/_layout.sass",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\SASS\\layout\\_layout.sass"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\layout\\_login.sass",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\layout\\_login.sass",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "SASS/layout/_login.sass",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\SASS\\layout\\_login.sass"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\layout\\_splash.sass",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\layout\\_splash.sass",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "SASS/layout/_splash.sass",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\SASS\\layout\\_splash.sass"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\layout\\_splash-cliente.sass",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\layout\\_splash-cliente.sass",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "SASS/layout/_splash-cliente.sass",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\SASS\\layout\\_splash-cliente.sass"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\layout\\_splash-fornecedor.sass",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\layout\\_splash-fornecedor.sass",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "SASS/layout/_splash-fornecedor.sass",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\SASS\\layout\\_splash-fornecedor.sass"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\main.css",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\main.css",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "SASS/main.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\SASS\\main.css"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\main.css.map",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\main.css.map",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "SASS/main.css.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\SASS\\main.css.map"
     },
     {
-      "Identity": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\main.sass",
+      "Identity": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\SASS\\main.sass",
       "SourceId": "CaixaComanda",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Programação\\Visual Studio\\CaixaComanda\\CaixaComanda\\wwwroot\\",
+      "ContentRoot": "D:\\PROGRAMAS TI\\Aplicativo - CaixaComanda\\CaixaComanda\\CaixaComanda\\wwwroot\\",
       "BasePath": "_content/CaixaComanda",
       "RelativePath": "SASS/main.sass",
       "AssetKind": "All",
