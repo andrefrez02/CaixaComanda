@@ -6,3 +6,28 @@
 /CaixaComanda/bin
 /CaixaComanda/CaixaComanda.csproj.user
 /CaixaComanda/CaixaComanda.user
+
+# Build output (qualquer projeto, não só /CaixaComanda)
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userprefs
+
+# NuGet
+*.nupkg
+packages/
+
+# Diversos
+*.log
+*.rar
+
+# Vercel
+.vercel/

@@ -1,0 +1,66 @@
+.main
+  background-color: $background-color
+  overflow: clip
+  display: grid
+  grid-template-rows: min-content 1fr
+
+  &-header
+    background-color: $brand-color
+    padding: 15px 10px
+    display: grid
+    grid-template-columns: 48px auto 48px
+    align-items: center
+
+    &__icone
+      width: 48px
+      height: 48px
+
+    &__voltar
+      width: 30px
+      height: 30px
+      padding: 0
+      margin: 0
+      border: none
+      border-radius: 50px
+      background-color: #f3f3f3
+      display: flex
+      align-items: center
+      justify-content: center
+      transition: .2s ease-in-out
+
+      &:hover, &:active, &:focus
+        cursor: pointer
+        outline: #902b264d 2px solid
+        background-color: $secondary-color
+
+        svg
+          path:first-of-type
+            fill: #f3f3f3
+
+      svg
+        transition: .3s .1s ease-in-out
+        width: 18px
+        height: 18px
+
+    &__titulo
+      color: $important-text-color
+      font-weight: bold
+      text-align: center
+      margin: 0
+      padding: 0
+      font-size: 1.5rem
+    
+  &-conteudo
+    border: 2.5px solid transparent
+    padding: 2.5px
+    overflow: scroll
+    display: grid
+    grid-auto-rows: auto
+    margin-bottom: -15px
+
+    &::-webkit-scrollbar
+      width: 5px
+
+    &::-webkit-scrollbar-thumb
+      background: $brand-color
+      border-radius: 5px

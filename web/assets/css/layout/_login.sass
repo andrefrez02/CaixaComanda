@@ -1,0 +1,118 @@
+.login
+  display: grid
+  justify-items: center
+  align-items: start
+  margin-block: 80px
+
+  &-form
+    display: grid
+    gap: 30px
+    
+    &__grupo
+      display: grid
+      gap: 8px
+
+      label
+        font-weight: bold
+
+      input, textarea
+        border-radius: 10px
+        border: 1px solid $secondary-color
+        padding: 5px 10px
+        background-color: #fff
+        color: $secondary-color
+        font-weight: bold
+
+        &[type="password"]
+          letter-spacing: 2px
+
+        &::placeholder
+          color: #e4cccb
+          font-weight: bold
+
+      textarea
+        height: 100px
+        resize: none
+        border-inline: 5px solid transparent
+        border-block: 5px solid transparent
+        padding: 6px 5px
+        position: relative
+        display: flex
+        align-items: center
+        justify-content: center
+        outline: 1px solid $secondary-color
+        
+        &::-webkit-scrollbar
+          width: 5px
+
+        &::-webkit-scrollbar-thumb
+          background: $brand-color
+          border-radius: 5px
+
+    &__file-upload
+      display: grid
+      grid-template-columns: auto 1fr
+      gap: 10px
+      background-color: #fff
+      border: 1px solid $secondary-color
+      border-radius: 10px
+      padding: 5px
+      align-items: center
+
+      img
+        width: 50px
+        height: 50px
+        border-radius: 10px
+        border: 1px solid $secondary-color
+        object-fit: cover
+
+        &.imagem-nao-disponivel
+          width: 25px
+          height: 25px
+          padding: 12.5px
+          filter: grayscale(1) brightness(0) invert(23%) sepia(86%) saturate(1231%) hue-rotate(333deg) brightness(81%) contrast(96%)
+
+      input
+        border: none
+        padding: 0
+        border-radius: 0
+
+    &__submit
+      width: fit-content
+      margin: auto
+      padding: 8px 18px
+      border-radius: 30px
+      border: none
+      background-color: #4a925a
+      color: #fff
+      font-weight: 600
+      transition: .2s ease-in-out
+      
+      &:hover, &:active, &:focus
+        cursor: pointer
+        scale: 1.02
+
+    &__delete
+      width: fit-content
+      margin: auto
+      padding: 6px 14px
+      border-radius: 30px
+      border: none
+      background-color: #902b26
+      color: #fff
+      font-weight: 600
+      transition: .2s ease-in-out
+      text-decoration: none
+      font-size: .75rem
+      margin-top: 8px
+      
+      &:hover, &:active, &:focus
+        cursor: pointer
+        scale: 1.02
+
+    &__link
+      color: $secondary-color
+      text-underline-offset: 5px
+      text-decoration-thickness: 1px
+      margin-top: 30px
+      margin-inline: auto

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Administrar - CaixaComanda</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="/assets/css/demo.css" />
+</head>
+<body class="main">
+  <main role="main" class="main-conteudo">
+    <div class="fornecedor">
+      <nav class="fornecedor-topo">
+        <a id="btnCadastrar" href="/fornecedor/cadastrar.html">Cadastrar</a>
+      </nav>
+      <div class="fornecedor-listagem" id="listagem"></div>
+    </div>
+  </main>
+
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/store.js"></script>
+  <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/splash.js"></script>
+  <script>
+    /* Views/Fornecedor/Index.cshtml — a própria view chamava DataModel.ListarProduto().
+       Como no original, a área do fornecedor não exige login: quem souber a URL entra. */
+    montarLayout("Administrar");
+    montarSplash(true);
+
+    const listagem = store.listarProduto();
+
+    document.getElementById("listagem").innerHTML = listagem
+      .map(function (item) {
+        return `<div class="fornecedor-listagem__item">
+          <div class="fornecedor-listagem__item-img">
+            <img src="${esc(urlFoto(item.Foto))}" alt="${esc(item.Nome)}" />
+          </div>
+
+          <div class="fornecedor-listagem__item-nome">${esc(item.Nome)}</div>
+
+          <div class="fornecedor-listagem__item-preco">R$${esc(String(item.Preco).replace(".", ","))}</div>
+
+          <div class="fornecedor-listagem__item-botoes">
+            <input type="hidden" value="${esc(item.Id)}" />
+            <a href="/fornecedor/alterar.html?Id=${encodeURIComponent(item.Id)}">Alterar</a>
+          </div>
+        </div>`;
+      })
+      .join("");
+  </script>
+</body>
+</html>

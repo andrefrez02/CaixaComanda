@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - CaixaComanda</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="/assets/css/demo.css" />
+</head>
+<body class="main">
+  <main role="main" class="main-conteudo">
+    <div class="login">
+      <form class="login-form" id="login">
+        <div class="login-form__grupo">
+          <label for="txtEmail">E-mail:</label>
+          <input placeholder="Digite aqui seu e-mail..." type="email" id="txtEmail" name="txtEmail"
+                 autocomplete="username" required />
+        </div>
+
+        <div class="login-form__grupo">
+          <label for="txtSenha">Senha:</label>
+          <input placeholder="Digite aqui sua senha..." type="password" id="txtSenha" name="txtSenha"
+                 autocomplete="current-password" required />
+        </div>
+
+        <div class="login-form__grupo">
+          <button class="login-form__submit" type="submit">Login</button>
+
+          <a class="login-form__link" href="/login/cadastrar.html">Ainda não tem cadastro?</a>
+        </div>
+
+        <p class="erro-demo" id="erro" hidden></p>
+      </form>
+    </div>
+  </main>
+
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/store.js"></script>
+  <script src="/assets/js/app.js"></script>
+  <script>
+    /* Views/Login/Login.cshtml + LoginController.Login */
+    montarLayout("Login");
+
+    document.getElementById("login").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const usuario = store.loginUsuario(this.txtEmail.value, this.txtSenha.value);
+
+      if (!usuario) {
+        mostrarErro("E-mail ou senha inválidos.");
+        return;
+      }
+
+      // LoginController: Tipo "A" cai na área do fornecedor, o resto na do cliente.
+      location.href = usuario.Tipo === "A" ? "/fornecedor/" : "/cliente/";
+    });
+  </script>
+</body>
+</html>

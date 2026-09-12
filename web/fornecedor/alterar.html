@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alterar - CaixaComanda</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="/assets/css/demo.css" />
+</head>
+<body class="main">
+  <main role="main" class="main-conteudo">
+    <div class="fornecedor-form" id="conteudo"></div>
+  </main>
+
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/store.js"></script>
+  <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/form-produto.js"></script>
+  <script>
+    /* Views/Fornecedor/Alterar.cshtml + FornecedorController.Alterar / Deletar */
+    montarLayout("Alterar");
+
+    const id = query("Id");
+    const produto = store.pesquisarProduto(id);
+    const alvo = document.getElementById("conteudo");
+
+    if (!produto) {
+      alvo.innerHTML = `<p class="aviso-demo">Produto não encontrado.
+        <a href="/fornecedor/">Voltar para a listagem</a>.</p>`;
+    } else {
+      const form = montarFormProduto(alvo, produto);
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const campos = lerFormProduto(form);
+
+        // O controller só chama o update se algum campo mudou.
+        const mudou = Object.keys(campos).some((k) => campos[k] !== (produto[k] || ""));
+        if (!mudou) {
+          mostrarErro("Nenhum campo foi alterado");
+          return;
+        }
+
+        store.alterarProduto(id, campos);
+        location.href = "/fornecedor/";
+      });
+
+      document.getElementById("lnkDeletar").addEventListener("click", function (e) {
+        e.preventDefault();
+        if (confirm('Deletar o produto "' + produto.Nome + '"?')) {
+          alert(store.deletarProduto(id));
+          location.href = "/fornecedor/";
+        }
+      });
+    }
+  </script>
+</body>
+</html>

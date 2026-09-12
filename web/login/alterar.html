@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alterar Cadastro - CaixaComanda</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="/assets/css/demo.css" />
+</head>
+<body class="main">
+  <main role="main" class="main-conteudo">
+    <div class="login">
+      <form class="login-form" id="alterar">
+        <div class="login-form__grupo">
+          <label for="txtEmail">E-mail:</label>
+          <input type="email" id="txtEmail" name="txtEmail" value="" autocomplete="username" disabled draggable="false" />
+        </div>
+
+        <div class="login-form__grupo">
+          <label for="txtSenha">Senha Atual:</label>
+          <input type="password" id="txtSenha" name="txtSenha" value=""
+                 autocomplete="current-password" required />
+        </div>
+
+        <div class="login-form__grupo">
+          <label for="txtNovaSenha">Senha Nova:</label>
+          <input type="password" id="txtNovaSenha" name="txtNovaSenha" value=""
+                 autocomplete="new-password" required />
+        </div>
+
+        <div class="login-form__grupo">
+          <button class="login-form__submit" type="submit" name="btnSubmit">Alterar</button>
+
+          <a class="login-form__delete" href="#" id="lnkDeletar">Deletar conta</a>
+        </div>
+
+        <p class="erro-demo" id="erro" hidden></p>
+      </form>
+    </div>
+  </main>
+
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/store.js"></script>
+  <script src="/assets/js/app.js"></script>
+  <script>
+    /* Views/Login/Alterar.cshtml + LoginController.Alterar / Deletar */
+    montarLayout("Alterar Cadastro");
+
+    const usuario = exigirLogin();
+
+    if (usuario) {
+      const form = document.getElementById("alterar");
+      form.txtEmail.value = usuario.Email;
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        // Mesmas validações do controller, na mesma ordem.
+        if (form.txtSenha.value !== usuario.Senha) {
+          mostrarErro("A senha atual está incorreta.");
+          return;
+        }
+
+        if (form.txtNovaSenha.value === form.txtSenha.value) {
+          mostrarErro("As senhas devem ser diferentes.");
+          return;
+        }
+
+        // O controller regrava Senha e Tipo (o Tipo sem mudança).
+        store.alterarUsuario(usuario.Id, {
+          Senha: form.txtNovaSenha.value,
+          Tipo: usuario.Tipo,
+        });
+
+        mostrarErro("");
+        form.reset();
+        form.txtEmail.value = usuario.Email;
+        alert("Senha alterada com sucesso.");
+        location.href = usuario.Tipo === "A" ? "/fornecedor/" : "/cliente/";
+      });
+
+      document.getElementById("lnkDeletar").addEventListener("click", function (e) {
+        e.preventDefault();
+        if (confirm("Deletar sua conta? Isso não pode ser desfeito.")) {
+          alert(store.deletarUsuario(usuario.Id));
+          location.href = "/login/login.html";
+        }
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JSON - CaixaComanda</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+</head>
+<body>
+  <pre id="json"></pre>
+
+  <script src="/assets/js/store.js"></script>
+  <script>
+    /* Views/Shared/JSON.cshtml (Layout = null) + LoginController.JSON,
+       que chama DataModel.ListarJson("tb_usuarios"). */
+    document.getElementById("json").textContent = store.listarJson("tb_usuarios");
+  </script>
+</body>
+</html>

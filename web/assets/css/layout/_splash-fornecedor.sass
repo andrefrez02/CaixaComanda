@@ -1,0 +1,43 @@
+.splash.fornecedor
+  animation: fade-in-background forwards 5s
+  
+  .splash-inicio
+    display: grid
+    gap: 15px
+    animation: fade-in-3 forwards 3s
+
+    .texto
+      animation-delay: 1.3s
+
+    span
+      opacity: 0
+      color: #fff
+      font-weight: bold
+      text-align: center
+      animation: fade-in-4 forwards 1s
+      animation-delay: 1.5s
+      transition: .4s ease-in-out
+
+      &:first-of-type
+        font-size: 1.5rem
+        text-decoration: underline
+        text-underline-offset: 22px
+
+@keyframes fade-in-3
+  0%
+    opacity: 1
+
+  100%
+    opacity: 1
+    display: grid
+    gap: 30px
+    height: fit-content
+    align-items: center
+    justify-items: center
+
+@keyframes fade-in-4
+  0%
+    opacity: 0
+
+  100%
+    opacity: 1

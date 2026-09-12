@@ -1,0 +1,84 @@
+.splash
+  display: flex
+  width: 100%
+  height: 100%
+  position: absolute
+  top: 0
+  left: 0
+  align-items: center
+  flex-direction: column
+  justify-content: center
+  animation: fade-in-background forwards 8s
+  transition: .4s ease-in-out
+  z-index: 999
+  
+  &-inicio
+    height: 0
+    opacity: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    animation: fade-in-2 forwards 6s
+    animation-delay: 2s
+    transition: .4s ease-in-out
+
+    img
+      height: 0
+      opacity: 0
+      transition: .4s ease-in-out
+
+    .icone
+      animation: fade-in-scale-down forwards 6s
+      animation-delay: 2s
+      width: 250px
+      height: 250px
+      transition: .4s ease-in-out
+
+    .texto
+      animation: fade-in forwards 1s
+      animation-delay: 4s
+      transition: .4s ease-in-out
+
+  & + *
+    opacity: 0
+
+@keyframes fade-in
+  0%
+    height: 0
+    width: 0
+
+  100%
+    opacity: 1
+    width: 150px
+    height: 150px
+
+@keyframes fade-in-scale-down
+  50%
+    opacity: 1
+    
+  100%
+    height: 100px
+    width: 100px
+    opacity: 1
+
+@keyframes fade-in-2
+  0%
+    opacity: 1
+
+  100%
+    opacity: 1
+    display: flex
+    gap: 15px
+    height: fit-content
+    align-items: center
+    justify-content: center
+
+@keyframes fade-in-background
+  0%
+    background-color: $background-color
+  
+  50%
+    background-color: $brand-color
+
+  100%
+    background-color: #ff9c65

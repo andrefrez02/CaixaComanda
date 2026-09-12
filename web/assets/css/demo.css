@@ -1,0 +1,63 @@
+/* Único CSS que não vem do projeto original: o rodapé da demo estática e as
+   mensagens de erro que o Razor calculava mas nunca chegava a exibir.
+   O main.css copiado do wwwroot não foi tocado. */
+
+[hidden] {
+  display: none !important;
+}
+
+.rodape-demo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 6px 10px;
+  background-color: #f3f3f3;
+  border-top: 1px solid #e7e7e7;
+  font-size: 0.7rem;
+}
+
+.rodape-demo a {
+  color: #902b26;
+  text-underline-offset: 3px;
+}
+
+.rodape-demo button {
+  padding: 4px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #902b26;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.7rem;
+  transition: 0.2s ease-in-out;
+}
+
+.rodape-demo button:hover,
+.rodape-demo button:focus {
+  cursor: pointer;
+  scale: 1.02;
+}
+
+.aviso-demo {
+  margin: auto;
+  padding: 10px 14px;
+  max-width: 260px;
+  text-align: center;
+  color: #902b26;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.erro-demo {
+  margin: 0 auto;
+  padding: 6px 12px;
+  max-width: 260px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #902b26;
+  background-color: #f7e7e6;
+  color: #902b26;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
